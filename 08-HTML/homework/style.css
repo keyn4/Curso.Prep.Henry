@@ -1,18 +1,35 @@
-
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(fondo.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
 h1 {
     color: darkgray;
+    text-align: center;
     }
 img {
     width: 400px;
     }
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
 #thirdDiv{
     height: 600px;
     width: 500px;
-    background-color: darkgrey;
-    padding: 50px;
+    background-color: white;
+    padding:50px;
+    padding-bottom: 50px;
     border: blanchedalmond 5px;
     }
 #spanId {
     size: 18px;
     }
+
+ul{
+    list-style: none;
+    padding-top: none;
+    margin-bottom: 50px;
+}
 
